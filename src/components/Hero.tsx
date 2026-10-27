@@ -35,7 +35,7 @@ export default function Hero() {
 
         <p className="text-2xl text-neutral-700 mb-4">DATA SCIENTIST | APPLIED AI</p>
         <p className="text-neutral-600 max-w-2xl mx-auto text-lg mb-8">
-          Final-year Computer Science student at Universiti Teknologi PETRONAS. I spent eight months at Petronas Digital building the data ingestion pipelines and retrieval layer for an internal AI chatbot, and I am now building an ML-based rental scam detector as my final year project.
+          Final-year Computer Science student at Universiti Teknologi PETRONAS. I spent eight months at Petronas Digital building the data ingestion pipelines and retrieval layer for an internal AI chatbot, and for my final year project I built RentSafe MY, which rates Malaysian rental chats for scam risk and explains why.
         </p>
 
         <div className="flex gap-4 justify-center flex-wrap mb-12">

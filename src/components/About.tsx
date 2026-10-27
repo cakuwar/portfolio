@@ -4,7 +4,7 @@ export default function About() {
   const skills = [
     { title: 'Retrieval & RAG', description: 'Collection-aware retrieval over pgvector stores and Neo4j knowledge graphs' },
     { title: 'Agentic AI Workflows', description: 'Agent workflows with LangChain and LangGraph, traced with Langfuse for latency and token cost' },
-    { title: 'NLP & Machine Learning', description: 'Fine-tuning transformers with HuggingFace and PyTorch, text and zero-shot classification, OCR' },
+    { title: 'NLP & Machine Learning', description: 'Fine-tuning transformers with HuggingFace and PyTorch, testing them beyond validation accuracy, and OCR' },
     { title: 'Data Engineering', description: 'Web scrapers and ingestion pipelines: chunking, embedding and loading into PostgreSQL' },
     { title: 'Backend Development', description: 'FastAPI endpoints, REST APIs and Streamlit interfaces connected to backend services' },
     { title: 'Data Visualization', description: 'Interactive D3.js dashboards with cross-filtering, drill-downs and heatmaps' },
@@ -28,7 +28,7 @@ export default function About() {
               During my eight-month internship with the AI Innovation Team at Petronas Digital, I worked on the company&apos;s internal AI chatbot: adding collection-aware retrieval across pgvector and Neo4j, writing the FastAPI endpoints and setting up the document ingestion flow.
             </p>
             <p className="text-neutral-700 leading-relaxed">
-              For my final year project I am building RentSafe MY, a platform that scores Malaysian rental listings for scam risk and explains the score in plain Malay and English. I also co-founded CarbonLit, a carbon-tracking app, as CTO.
+              For my final year project I built RentSafe MY, a web platform that rates the scam risk of Malaysian rental chats. It combines a fine-tuned XLM-RoBERTa classifier with a public complaint search and a rent comparison, and explains the score in plain Malay and English. I also co-founded CarbonLit, a carbon-tracking app, as CTO.
             </p>
           </div>
 
@@ -41,7 +41,7 @@ export default function About() {
               </div>
               <div>
                 <p className="text-black font-semibold">Machine Learning & NLP</p>
-                <p className="text-neutral-600 text-sm">Fine-tuning transformers, text classification, zero-shot classification and OCR</p>
+                <p className="text-neutral-600 text-sm">Fine-tuning transformers, text classification, robustness testing with minimal pairs, and OCR</p>
               </div>
               <div>
                 <p className="text-black font-semibold">Data Systems</p>

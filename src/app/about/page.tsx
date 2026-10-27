@@ -16,7 +16,7 @@ export default function About() {
               I spent an eight-month internship at Petronas Digital working on an internal AI chatbot, building the data ingestion pipelines and retrieval layer on PostgreSQL and Neo4j.
             </p>
             <p className="text-neutral-700 text-lg leading-relaxed">
-              I&apos;m now building RentSafe MY, an ML-based rental scam detector, as my final year project.
+              For my final year project I built RentSafe MY, which rates Malaysian rental chats for scam risk and explains the result in Malay and English.
             </p>
           </div>
 
