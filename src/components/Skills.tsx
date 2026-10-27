@@ -8,7 +8,7 @@ export default function Skills() {
     },
     {
       title: 'Machine Learning & NLP',
-      skills: ['HuggingFace Transformers', 'PyTorch', 'Fine-tuning Transformers', 'Text Classification', 'Zero-shot Classification (XLM-RoBERTa)', 'OCR (Tesseract)']
+      skills: ['HuggingFace Transformers', 'PyTorch', 'Fine-tuning Transformers (XLM-RoBERTa)', 'Text Classification', 'Model Evaluation & Calibration', 'OCR (Tesseract)']
     },
     {
       title: 'GenAI & LLM',
@@ -16,11 +16,11 @@ export default function Skills() {
     },
     {
       title: 'Databases',
-      skills: ['PostgreSQL', 'pgvector', 'Neo4j (Cypher)', 'MySQL', 'Supabase', 'Embeddings']
+      skills: ['PostgreSQL', 'pgvector', 'Neo4j (Cypher)', 'MySQL', 'Redis', 'Supabase', 'Embeddings']
     },
     {
       title: 'Frameworks & Tools',
-      skills: ['FastAPI', 'REST APIs', 'Streamlit', 'Flutter', 'React', 'D3.js', 'Git & GitHub', 'PyMuPDF', 'Canva', 'Microsoft Excel']
+      skills: ['FastAPI', 'REST APIs', 'Node.js & Express', 'Streamlit', 'Flutter', 'React', 'D3.js', 'Git & GitHub', 'PyMuPDF', 'Canva', 'Microsoft Excel']
     },
     {
       title: 'Spoken Languages',

@@ -20,9 +20,9 @@ export const projects: Project[] = [
   {
     id: 'rentsafe-my',
     title: 'RentSafe MY: Explainable Rental Scam Detection',
-    meta: 'Final Year Project · Expected Dec 2026',
-    description: 'Scores Malaysian rental listings from 0 to 100 for scam risk using the listing text, OCR of WhatsApp screenshots and the asking price, then explains the score in plain Malay and English instead of giving a black-box flag. Combines a fine-tuned Malaya-ELECTRA classifier, XLM-RoBERTa zero-shot classification, regex rules, OSINT lookups through Serper.dev and a price anomaly check against a scraped rental baseline covering 221 area and room-type combinations.',
-    tags: ['Python', 'PyTorch', 'HuggingFace', 'Tesseract OCR', 'PostgreSQL', 'FastAPI', 'React'],
+    meta: 'Final Year Project · 2026',
+    description: 'Rates the scam risk of a Malaysian rental chat in English, Malay or Manglish, pasted as text or uploaded as WhatsApp screenshots. A fine-tuned XLM-RoBERTa classifier and 26 bilingual red-flag rules read the chat, a web search looks for public complaints about the agent, and the rent is compared with 14,106 Kuala Lumpur and Selangor listings. The three signals add up to a deterministic 0–100 score, which an LLM explains in Malay and English. My first classifier scored 99% on validation but only 44% on chats written in new wording, because it had learned shortcuts such as message length. Retraining it on minimal scam/legitimate pairs raised that to 97%. In a blind test on 15 unseen chats it caught all 10 scams and gave 2 false alarms on the 5 role-played legitimate chats.',
+    tags: ['Python', 'PyTorch', 'HuggingFace', 'XLM-RoBERTa', 'Tesseract OCR', 'FastAPI', 'Node.js', 'React', 'PostgreSQL', 'Redis'],
     category: 'ai',
     image: '🏠',
     screenshots: [],

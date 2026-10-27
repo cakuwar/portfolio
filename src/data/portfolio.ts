@@ -13,7 +13,7 @@ export const portfolioData = {
 
   skills: {
     programming: ["Python", "SQL", "C++", "Dart", "Java", "Data Pipelines", "Web Scraping"],
-    machineLearning: ["HuggingFace Transformers", "PyTorch", "Text Classification", "Zero-shot Classification (XLM-RoBERTa)", "OCR (Tesseract)"],
+    machineLearning: ["HuggingFace Transformers", "PyTorch", "Text Classification", "Fine-tuning (XLM-RoBERTa)", "Model Evaluation & Calibration", "OCR (Tesseract)"],
     genAI: ["RAG", "LangChain", "LangGraph", "Azure OpenAI", "OpenRouter", "Langfuse"],
     databases: ["PostgreSQL", "pgvector", "Neo4j (Cypher)", "MySQL", "Supabase"],
     tools: ["FastAPI", "REST APIs", "Streamlit", "Git & GitHub", "PyMuPDF", "Canva", "Microsoft Excel"],
@@ -24,8 +24,8 @@ export const portfolioData = {
     {
       id: 1,
       title: "RentSafe MY: Explainable Rental Scam Detection",
-      description: "Scores Malaysian rental listings from 0 to 100 for scam risk using the listing text, OCR of WhatsApp screenshots and the asking price, then explains the score in plain Malay and English",
-      technologies: ["Python", "PyTorch", "HuggingFace", "Tesseract OCR", "PostgreSQL", "FastAPI", "React"],
+      description: "Rates the scam risk of Malaysian rental chats by combining a fine-tuned XLM-RoBERTa classifier and bilingual red-flag rules with a public complaint search and a rent comparison, then explains the score in Malay and English",
+      technologies: ["Python", "PyTorch", "XLM-RoBERTa", "Tesseract OCR", "FastAPI", "Node.js", "React", "PostgreSQL"],
       githubLink: "",
       liveLink: "",
       featured: true,
