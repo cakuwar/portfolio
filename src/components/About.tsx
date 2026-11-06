@@ -3,7 +3,7 @@
 export default function About() {
   const skills = [
     { title: 'Retrieval & RAG', description: 'Collection-aware retrieval over pgvector stores and Neo4j knowledge graphs' },
-    { title: 'Agentic AI Workflows', description: 'Agent workflows with LangChain and LangGraph, traced with Langfuse for latency and token cost' },
+    { title: 'Agentic AI Workflows', description: 'Multi-agent LangGraph systems with parallel agents, human approval and evaluators, traced with Langfuse for latency and token cost' },
     { title: 'NLP & Machine Learning', description: 'Fine-tuning transformers with HuggingFace and PyTorch, testing them beyond validation accuracy, and OCR' },
     { title: 'Data Engineering', description: 'Web scrapers and ingestion pipelines: chunking, embedding and loading into PostgreSQL' },
     { title: 'Backend Development', description: 'FastAPI endpoints, REST APIs and Streamlit interfaces connected to backend services' },
@@ -30,6 +30,9 @@ export default function About() {
             <p className="text-neutral-700 leading-relaxed">
               For my final year project I built RentSafe MY, a web platform that rates the scam risk of Malaysian rental chats. It combines a fine-tuned XLM-RoBERTa classifier with a public complaint search and a rent comparison, and explains the score in plain Malay and English. I also co-founded CarbonLit, a carbon-tracking app, as CTO.
             </p>
+            <p className="text-neutral-700 leading-relaxed mt-4">
+              Most recently I built HalalLens, a multi-agent research assistant for Bursa Malaysia stocks. Three LangGraph agents check Shariah status, technicals and news in parallel, every number comes from code rather than the model, and a person approves each brief before it is saved.
+            </p>
           </div>
 
           <div className="bg-white rounded-lg p-8">
@@ -37,7 +40,7 @@ export default function About() {
             <div className="space-y-4">
               <div>
                 <p className="text-black font-semibold">GenAI & LLMs</p>
-                <p className="text-neutral-600 text-sm">RAG, agent workflows with LangChain and LangGraph, LLM APIs (Azure OpenAI, OpenRouter)</p>
+                <p className="text-neutral-600 text-sm">RAG, multi-agent workflows with LangChain and LangGraph, human-in-the-loop review, LLM evaluation, LLM APIs (Azure OpenAI, OpenRouter)</p>
               </div>
               <div>
                 <p className="text-black font-semibold">Machine Learning & NLP</p>
