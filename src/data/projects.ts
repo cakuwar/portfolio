@@ -18,6 +18,25 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    id: 'halallens',
+    title: 'HalalLens: Multi-Agent Shariah Stock Research',
+    meta: 'Personal project · Nov 2026',
+    description: 'A multi-agent research assistant for Bursa Malaysia stocks, built as one LangGraph graph. A supervisor resolves the company, typos included, and runs three agents in parallel. The Shariah agent looks the stock up on the Securities Commission Malaysia list and cites its date, with no LLM involved. The technical agent computes support, resistance, moving averages and RSI in pandas, so the LLM only explains numbers it did not produce. The news agent searches Malaysian business news through Tavily and cites a headline for every claim. A writer drafts a cited brief, and the run pauses until a person approves it or sends it back; a revision re-runs only the agents that are needed. FastAPI streams each step to a React UI, and Langfuse traces every run. Evaluators check the Shariah status, that every number in the brief appears in the tool output, and that the brief gives no buy or sell advice. The public demo runs on simulated data.',
+    tags: ['LangGraph', 'Python', 'FastAPI', 'React', 'LangChain', 'pandas', 'yfinance', 'Tavily', 'Langfuse', 'PostgreSQL', 'Docker'],
+    category: 'ai',
+    image: '🔍',
+    screenshots: [
+      { src: '/images/projects/halallens/home.png', caption: 'Home: ask about any Bursa stock, with the agent graph and live figures from the SC Shariah list' },
+      { src: '/images/projects/halallens/review.png', caption: 'Human review: the run pauses after the first draft, with each agent’s step and timing on the right (public demo, simulated data)' },
+      { src: '/images/projects/halallens/compare.png', caption: 'An approved comparison of Tenaga and YTL Power, with the same metrics side by side' },
+      { src: '/images/projects/halallens/company.png', caption: 'Company view: Shariah status from the SC list, then six months of prices with MA20, MA50 and support and resistance computed in code' },
+      { src: '/images/projects/halallens/writeup.png', caption: 'The writer agent’s brief, which quotes only numbers returned by the tools' },
+      { src: '/images/projects/halallens/evidence.png', caption: 'Evidence: the raw tool output the writer was allowed to use' },
+    ],
+    github: 'https://github.com/cakuwar/HalalLens',
+    live: 'https://halallens-ui.vercel.app'
+  },
+  {
     id: 'rentsafe-my',
     title: 'RentSafe MY: Explainable Rental Scam Detection',
     meta: 'Final Year Project · 2026',

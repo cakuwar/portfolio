@@ -14,13 +14,22 @@ export const portfolioData = {
   skills: {
     programming: ["Python", "SQL", "C++", "Dart", "Java", "Data Pipelines", "Web Scraping"],
     machineLearning: ["HuggingFace Transformers", "PyTorch", "Text Classification", "Fine-tuning (XLM-RoBERTa)", "Model Evaluation & Calibration", "OCR (Tesseract)"],
-    genAI: ["RAG", "LangChain", "LangGraph", "Azure OpenAI", "OpenRouter", "Langfuse"],
+    genAI: ["RAG", "LangChain", "LangGraph", "Multi-agent Systems", "Human-in-the-loop", "LLM Evaluation", "Azure OpenAI", "OpenRouter", "Langfuse"],
     databases: ["PostgreSQL", "pgvector", "Neo4j (Cypher)", "MySQL", "Supabase"],
-    tools: ["FastAPI", "REST APIs", "Streamlit", "Git & GitHub", "PyMuPDF", "Canva", "Microsoft Excel"],
+    tools: ["FastAPI", "REST APIs", "Streamlit", "Docker", "Git & GitHub", "PyMuPDF", "Canva", "Microsoft Excel"],
   },
 
   // Leave githubLink/liveLink empty to hide the button; add a URL to show it
   projects: [
+    {
+      id: 6,
+      title: "HalalLens: Multi-Agent Shariah Stock Research",
+      description: "LangGraph research assistant for Bursa Malaysia stocks: three parallel agents check Shariah status on the SC list, compute technicals in code and cite the news, a writer drafts a cited brief, and a person approves it before it is saved",
+      technologies: ["LangGraph", "Python", "FastAPI", "React", "pandas", "Tavily", "Langfuse", "Docker"],
+      githubLink: "https://github.com/cakuwar/HalalLens",
+      liveLink: "https://halallens-ui.vercel.app",
+      featured: true,
+    },
     {
       id: 1,
       title: "RentSafe MY: Explainable Rental Scam Detection",

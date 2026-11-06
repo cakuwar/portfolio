@@ -12,7 +12,7 @@ export default function Skills() {
     },
     {
       title: 'GenAI & LLM',
-      skills: ['RAG', 'LangChain', 'LangGraph', 'Agent Workflows', 'Azure OpenAI', 'OpenRouter', 'Vector & Graph Retrieval', 'Langfuse']
+      skills: ['RAG', 'LangChain', 'LangGraph', 'Multi-agent Systems', 'Human-in-the-loop Review', 'LLM Evaluation (LLM-as-judge)', 'Azure OpenAI', 'OpenRouter', 'Vector & Graph Retrieval', 'Langfuse']
     },
     {
       title: 'Databases',
@@ -20,7 +20,7 @@ export default function Skills() {
     },
     {
       title: 'Frameworks & Tools',
-      skills: ['FastAPI', 'REST APIs', 'Node.js & Express', 'Streamlit', 'Flutter', 'React', 'D3.js', 'Git & GitHub', 'PyMuPDF', 'Canva', 'Microsoft Excel']
+      skills: ['FastAPI', 'REST APIs', 'Server-Sent Events', 'Node.js & Express', 'Streamlit', 'Flutter', 'React', 'D3.js', 'Docker', 'Git & GitHub', 'PyMuPDF', 'Canva', 'Microsoft Excel']
     },
     {
       title: 'Spoken Languages',
