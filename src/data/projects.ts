@@ -39,13 +39,17 @@ export const projects: Project[] = [
   {
     id: 'rentsafe-my',
     title: 'RentSafe MY: Explainable Rental Scam Detection',
-    meta: 'Final Year Project · 2026',
-    description: 'Rates the scam risk of a Malaysian rental chat in English, Malay or Manglish, pasted as text or uploaded as WhatsApp screenshots. A fine-tuned XLM-RoBERTa classifier and 26 bilingual red-flag rules read the chat, a web search looks for public complaints about the agent, and the rent is compared with 14,106 Kuala Lumpur and Selangor listings. The three signals add up to a deterministic 0–100 score, which an LLM explains in Malay and English. My first classifier scored 99% on validation but only 44% on chats written in new wording, because it had learned shortcuts such as message length. Retraining it on minimal scam/legitimate pairs raised that to 97%. In a blind test on 15 unseen chats it caught all 10 scams and gave 2 false alarms on the 5 role-played legitimate chats.',
-    tags: ['Python', 'PyTorch', 'HuggingFace', 'XLM-RoBERTa', 'Tesseract OCR', 'FastAPI', 'Node.js', 'React', 'PostgreSQL', 'Redis'],
+    meta: 'Final Year Project · Completed Nov 2026',
+    description: 'Rates the scam risk of a Malaysian rental chat in English, Malay or Manglish, pasted as text or uploaded as WhatsApp screenshots. A fine-tuned XLM-RoBERTa classifier and 26 bilingual red-flag rules read the chat, a web search looks for public complaints about the agent, and the rent is compared with 14,106 Kuala Lumpur and Selangor listings. The three signals add up to a deterministic 0–100 score, which an LLM explains in Malay and English but cannot change. My first classifier scored 99% on validation but only 44% on chats written in new wording, because it had learned shortcuts such as message length. Retraining it on minimal scam/legitimate pairs raised that to 97%. A TF-IDF baseline trained on the same pairs matched it, which showed the gain came from the data rather than the transformer. In a blind test on 15 unseen chats, most of them real, the classifier caught all 10 scams, against 8 for the TF-IDF baseline and 9 for zero-shot GPT-4o-mini, with one false alarm each; the full risk score gave 2 false alarms on the 5 role-played legitimate chats. On a laptop a chat took a median of 7.6 seconds from upload to result, and 10 simultaneous users were served without errors.',
+    tags: ['Python', 'PyTorch', 'HuggingFace', 'XLM-RoBERTa', 'Tesseract OCR', 'FastAPI', 'Node.js', 'React', 'PostgreSQL', 'Redis', 'Docker'],
     category: 'ai',
     image: '🏠',
-    screenshots: [],
-    github: '',
+    screenshots: [
+      { src: '/images/projects/rentsafe-my/home.png', caption: 'Home: paste a listing or upload a screenshot, and get a 0–100 risk score in seconds' },
+      { src: '/images/projects/rentsafe-my/analyse.png', caption: 'Analyse: the chat text or WhatsApp screenshots, the agent’s details for the complaint search, and the rent, area and property type for the price check' },
+      { src: '/images/projects/rentsafe-my/guide.png', caption: 'User guide: five steps, including how Manglish shortforms such as “byr dlu” are expanded before the scam check' },
+    ],
+    github: 'https://github.com/cakuwar/Rentsafe-my',
     live: ''
   },
   {
