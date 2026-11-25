@@ -50,7 +50,7 @@ export const projects: Project[] = [
       { src: '/images/projects/rentsafe-my/guide.png', caption: 'User guide: five steps, including how Manglish shortforms such as “byr dlu” are expanded before the scam check' },
     ],
     github: 'https://github.com/cakuwar/Rentsafe-my',
-    live: ''
+    live: 'https://rentsafe-my.vercel.app/guide'
   },
   {
     id: 'commerce-pulse',

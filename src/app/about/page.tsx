@@ -16,7 +16,7 @@ export default function About() {
               I spent an eight-month internship at Petronas Digital working on an internal AI chatbot, building the data ingestion pipelines and retrieval layer on PostgreSQL and Neo4j.
             </p>
             <p className="text-neutral-700 mb-4 text-lg leading-relaxed">
-              For my final year project I built RentSafe MY, which rates Malaysian rental chats for scam risk and explains the result in Malay and English.
+              For my final year project I built RentSafe MY, which rates Malaysian rental chats for scam risk and explains the result in Malay and English. In a blind test on 15 unseen chats it caught all 10 scams.
             </p>
             <p className="text-neutral-700 text-lg leading-relaxed">
               Most recently I built HalalLens, a LangGraph multi-agent assistant that researches Bursa Malaysia stocks, Shariah status first, and waits for a person to approve each brief.

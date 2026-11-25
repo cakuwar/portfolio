@@ -28,7 +28,7 @@ export default function About() {
               During my eight-month internship with the AI Innovation Team at Petronas Digital, I worked on the company&apos;s internal AI chatbot: adding collection-aware retrieval across pgvector and Neo4j, writing the FastAPI endpoints and setting up the document ingestion flow.
             </p>
             <p className="text-neutral-700 leading-relaxed">
-              For my final year project I built RentSafe MY, a web platform that rates the scam risk of Malaysian rental chats. It combines a fine-tuned XLM-RoBERTa classifier with a public complaint search and a rent comparison, and explains the score in plain Malay and English. I also co-founded CarbonLit, a carbon-tracking app, as CTO.
+              For my final year project I built RentSafe MY, a web platform that rates the scam risk of Malaysian rental chats. It combines a fine-tuned XLM-RoBERTa classifier with a public complaint search and a rent comparison, and explains the score in plain Malay and English. In a blind test on 15 unseen chats it caught all 10 scams. I also co-founded CarbonLit, a carbon-tracking app, as CTO.
             </p>
             <p className="text-neutral-700 leading-relaxed mt-4">
               Most recently I built HalalLens, a multi-agent research assistant for Bursa Malaysia stocks. Three LangGraph agents check Shariah status, technicals and news in parallel, every number comes from code rather than the model, and a person approves each brief before it is saved.
