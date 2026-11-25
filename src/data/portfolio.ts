@@ -33,9 +33,9 @@ export const portfolioData = {
     {
       id: 1,
       title: "RentSafe MY: Explainable Rental Scam Detection",
-      description: "Rates the scam risk of Malaysian rental chats by combining a fine-tuned XLM-RoBERTa classifier and bilingual red-flag rules with a public complaint search and a rent comparison, then explains the score in Malay and English",
+      description: "Rates the scam risk of Malaysian rental chats by combining a fine-tuned XLM-RoBERTa classifier and bilingual red-flag rules with a public complaint search and a rent comparison, then explains the score in Malay and English. In a blind test on 15 unseen chats it caught all 10 scams",
       technologies: ["Python", "PyTorch", "XLM-RoBERTa", "Tesseract OCR", "FastAPI", "Node.js", "React", "PostgreSQL"],
-      githubLink: "",
+      githubLink: "https://github.com/cakuwar/Rentsafe-my",
       liveLink: "",
       featured: true,
     },
